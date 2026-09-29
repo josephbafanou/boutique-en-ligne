@@ -2,8 +2,8 @@
 
 Plateforme e-commerce complète : une **API REST Laravel** (catalogue, panier, commandes, back-office et reporting des ventes) et une **application mobile Flutter** qui la consomme.
 
-![Backend](https://github.com/JODoomsdaY/ecommerce-laravel-flutter/actions/workflows/backend.yml/badge.svg)
-![Mobile](https://github.com/JODoomsdaY/ecommerce-laravel-flutter/actions/workflows/mobile.yml/badge.svg)
+![Backend](https://github.com/JODoomsdaY/boutique-en-ligne/actions/workflows/backend.yml/badge.svg)
+![Mobile](https://github.com/JODoomsdaY/boutique-en-ligne/actions/workflows/mobile.yml/badge.svg)
 
 > Projet personnel inspiré de mon stage chez ZLO Technologies (Lomé, 2024), où j'ai développé une plateforme marchand/client avec Laravel, une app Flutter et une base MySQL. Le code de ce dépôt est entièrement réécrit.
 
