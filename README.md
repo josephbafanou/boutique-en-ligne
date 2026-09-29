@@ -13,7 +13,7 @@ Plateforme e-commerce complète : une **API REST Laravel** (catalogue, panier, c
 
 ```
 ┌──────────────────┐     HTTPS + JSON      ┌───────────────────────────┐      ┌──────────────┐
-│  App Flutter     │ ───────────────────►  │  API Laravel 11           │ ───► │ MySQL/SQLite │
+│  App Flutter     │ ───────────────────►  │  API Laravel 12           │ ───► │ MySQL/SQLite │
 │  (Provider)      │  Bearer token Sanctum │  Controllers → Services   │      └──────────────┘
 └──────────────────┘                       │  Resources · Enum statuts │
                                            └───────────────────────────┘
@@ -21,7 +21,7 @@ Plateforme e-commerce complète : une **API REST Laravel** (catalogue, panier, c
 
 | Dossier | Contenu |
 |---|---|
-| [`backend/`](backend) | API Laravel 11 · Sanctum · Eloquent · tests PHPUnit |
+| [`backend/`](backend) | API Laravel 12 · Sanctum · Eloquent · tests PHPUnit |
 | [`mobile/`](mobile) | App Flutter · Provider · http · shared_preferences |
 
 ## Fonctionnalités
