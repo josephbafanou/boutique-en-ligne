@@ -69,8 +69,8 @@ class AdminTest extends TestCase
             ->assertOk();
 
         $response->assertJsonPath('orders_count', 2)
-            ->assertJsonPath('revenue', 70.0)
-            ->assertJsonPath('average_basket', 35.0)
+            ->assertJsonPath('revenue', 70)
+            ->assertJsonPath('average_basket', 35)
             ->assertJsonPath('top_products.0.product_name', 'Pagne wax')
             ->assertJsonPath('top_products.0.quantity', 3)
             ->assertJsonCount(2, 'daily');

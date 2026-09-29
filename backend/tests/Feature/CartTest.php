@@ -46,7 +46,7 @@ class CartTest extends TestCase
         $product = Product::factory()->create(['price' => 10, 'stock' => 10]);
         $item = CartItem::create(['user_id' => $this->user->id, 'product_id' => $product->id, 'quantity' => 1]);
 
-        $this->patchJson("/api/cart/items/{$item->id}", ['quantity' => 4])->assertOk()->assertJsonPath('total', 40.0);
+        $this->patchJson("/api/cart/items/{$item->id}", ['quantity' => 4])->assertOk()->assertJsonPath('total', 40);
         $this->deleteJson("/api/cart/items/{$item->id}")->assertOk()->assertJsonPath('items_count', 0);
     }
 

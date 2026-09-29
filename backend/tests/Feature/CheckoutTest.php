@@ -53,7 +53,7 @@ class CheckoutTest extends TestCase
 
         $product->update(['price' => 99]);
 
-        $this->getJson("/api/orders/{$orderId}")->assertJsonPath('items.0.unit_price', 10.0);
+        $this->getJson("/api/orders/{$orderId}")->assertJsonPath('items.0.unit_price', 10);
     }
 
     public function test_checkout_fails_when_stock_is_insufficient_and_changes_nothing(): void
