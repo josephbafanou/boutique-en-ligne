@@ -1,4 +1,4 @@
-# 🛍️ E-commerce Laravel + Flutter
+ E-commerce Laravel + Flutter
 
 Plateforme e-commerce complète : une **API REST Laravel** (catalogue, panier, commandes, back-office et reporting des ventes) et une **application mobile Flutter** qui la consomme.
 
